@@ -1,5 +1,6 @@
 def minion_game(s: str) -> str:
 <<<<<<< HEAD
+<<<<<<< HEAD
     kevin_points = 0
     stuart_points = 0
      
@@ -19,17 +20,21 @@ def minion_game(s: str) -> str:
     length = len(s)
     vowel = 0
     consonant = 0
+=======
+    kevin_points = 0
+    stuart_points = 0
+>>>>>>> f374331 (betts_hf4_final)
 
-    for i in range(length):
+    for i in range(len(s)):
         if s[i] in 'AEIOU':
-                vowel += (length-i)
+                kevin_points += (len(s)-i)
         else:
-             consonant += (length-i)
+             stuart_points += (len(s)-i)
 
-    if vowel > consonant:
-        return f"Kevin {vowel}"
-    elif consonant > vowel:
-        return f"Stuart {consonant}"
+    if kevin_points > stuart_points:
+        return f"Kevin {kevin_points}"
+    elif stuart_points > kevin_points:
+        return f"Stuart {stuart_points}"
     else:
         return "Draw" 
 
