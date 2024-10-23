@@ -38,6 +38,10 @@ def minion_game(s: str) -> str:
     else:
         return "Draw" 
 
+<<<<<<< HEAD
     return minion_game
 
 >>>>>>> c733f68 (betts_hf4_2)
+=======
+    return minion_game
+>>>>>>> 372a4cf (betts_valamifura_final)

@@ -28,6 +28,10 @@ def swap_case(s: str) -> int:
         else:
             string += letter
 
+<<<<<<< HEAD
     return string
 
 >>>>>>> 52c6c02 (betts_hf4_1)
+=======
+    return string
+>>>>>>> 372a4cf (betts_valamifura_final)

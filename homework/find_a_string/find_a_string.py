@@ -22,4 +22,7 @@ def find_a_string(original_str: str, substr: str) -> int:
             count += 1
         
     return count
+<<<<<<< HEAD
 >>>>>>> f374331 (betts_hf4_final)
+=======
+>>>>>>> 372a4cf (betts_valamifura_final)
