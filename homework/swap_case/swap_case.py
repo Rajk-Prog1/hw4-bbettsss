@@ -1,12 +1,12 @@
 def swap_case(s: str) -> int:
-    new_string = ""
+    string = ""
 
-    for a in s:
-        if a.isupper():
-            new_string += a.lower()
-        elif a.islower():
-            new_string += a.upper()
+    for letters in s:
+        if letters.isupper():
+            string += letters.lower()
+        elif letters.islower():
+            string += letters.upper()
         else:
-            new_string += a
+            string += letters
 
-    return new_string
+    return string

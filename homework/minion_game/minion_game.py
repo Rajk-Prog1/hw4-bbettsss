@@ -1,17 +1,16 @@
 def minion_game(s: str) -> str:
-    length = len(s)
-    vowel = 0
-    consonant = 0
+    kevin_points = 0
+    stuart_points = 0
      
-    for i in range(s):
+    for i in range(len(s)):
         if s[i] in 'AEIOU':
-           vowel += (length-i)
+           kevin_points += ((len(s))-i)
         else:
-           consonant += (length-i)
+           stuart_points += ((len(s))-i)
                 
-    if vowel < consonant:
-        print('Stuart ' + str(consonant))
-    elif vowel > consonant:
-        print('Kevin ' + str(vowel))
+    if kevin_points < stuart_points:
+        print('Stuart ' + str(stuart_points))
+    elif kevin_points > stuart_points:
+        print('Kevin ' + str(kevin_points))
     else:
         print('Draw')
