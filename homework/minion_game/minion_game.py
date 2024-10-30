@@ -9,8 +9,8 @@ def minion_game(s: str) -> str:
            stuart_points += ((len(s))-i)
                 
     if kevin_points < stuart_points:
-        print('Stuart ' + str(stuart_points))
+        return('Stuart ' + str(stuart_points))
     elif kevin_points > stuart_points:
-        print('Kevin ' + str(kevin_points))
+        return('Kevin ' + str(kevin_points))
     else:
-        print('Draw')
+        return('Draw')
